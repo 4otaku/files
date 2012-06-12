@@ -1,0 +1,9 @@
+php_value memory_limit 512M
+php_value max_execution_time 600
+
+AddDefaultCharset UTF-8
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteRule .* /boot.php [NE,L]
+</IfModule>
