@@ -1,12 +1,3 @@
-images/avatar/*
-!images/avatar/.gitignore
-images/small/*
-!images/small/Land/
-!images/small/.gitignore
-images/full/*
-!images/full/Land/
-!images/full/.gitignore
-
 cache/*
 !cache/.gitignore
 
